@@ -27,7 +27,7 @@ class FactionMain extends PluginBase implements Listener {
     public $esssentialspe;
     public $factionChatActive = [];
     public $allyChatActive = [];
-    private $prefix = "§7[§6Void§bFactions§cPE§7]";
+    private $prefix = "§7[§cCricix§bPE§7]";
     
     const HEX_SYMBOL = "e29688";
     
@@ -150,8 +150,8 @@ class FactionMain extends PluginBase implements Listener {
             "help-command" => "help",
             "help-alias" => "?",
             "about-command" => "about",
-	    "ServerName" => "§6Void§bFactions§cPE",
-                "prefix" => "§7[§6Void§bFactions§cPE§7]",
+	    "ServerName" => "§cCricix§bPE",
+                "prefix" => "§7[§cCricix§bPE§7]",
                 "spawnerPrices" => [
                 	"skeleton" => 500,
                 	"pig" => 200,
